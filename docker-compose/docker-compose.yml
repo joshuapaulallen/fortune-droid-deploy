@@ -1,7 +1,7 @@
 version: "3.6"
 services:
   fortune-droid:
-    image: joshuapaulallen/fortune-droid:1.0.0
+    image: joshuapaulallen/fortune-droid:1.0.1
     container_name: 'fortune-droid'
     env_file: ../env/fortune-droid.env
     ports:
