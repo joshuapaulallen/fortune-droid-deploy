@@ -6,11 +6,11 @@ services:
     env_file: ../env/fortune-droid.env
     ports:
       - "8080:8080"
-  fortune-droid-social:
-    image: org.yourotherleft/fortune-droid-social:latest
-    container_name: 'fortune-droid-social'
-    env_file: ../env/fortune-droid-social.env
-    depends_on:
-      - fortune-droid
-    ports:
-      - "8081:8080"
+#  fortune-droid-social:
+#    image: joshuapaulallen/fortune-droid-social:latest
+#    container_name: 'fortune-droid-social'
+#    env_file: ../env/fortune-droid-social.env
+#    depends_on:
+#      - fortune-droid
+#    ports:
+#      - "8081:8080"
